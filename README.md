@@ -1,11 +1,8 @@
-# java-examples
-
-
-environment setup:
+JDK and IDE:
 https://www.oracle.com/java/technologies/javase-downloads.html
 https://www.jetbrains.com/idea/download
 
-learning resources:
+Learning resources:
 
 1: https://www.w3schools.com/java/default.asp
 2: https://www.baeldung.com/get-started-with-java-series
