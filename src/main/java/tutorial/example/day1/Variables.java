@@ -1,4 +1,4 @@
-package tutorial.example;
+package tutorial.example.day1;
 
 public class Variables {
     public static void main(String[] args) {
