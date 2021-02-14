@@ -15,7 +15,7 @@ public class ListExample
 		System.out.println("second element is " + emails.get(1));
 
 		System.out.println("----------------------");
-		
+
 		emails.add(1, "badguy@hotmail.com");
 
 		/**
