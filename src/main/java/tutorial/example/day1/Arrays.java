@@ -12,5 +12,8 @@ public class Arrays
 		// declare and initialize
 		int[] array1 = { 1, 2, 3 };
 		int[] array2 = new int[] { 1, 2, 3 };
+
+		// declare and initialize
+		String[] words = {"one", "two", "three"};
 	}
 }
