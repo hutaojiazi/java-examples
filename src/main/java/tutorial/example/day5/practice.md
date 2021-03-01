@@ -33,7 +33,7 @@ find all the teachers who teach Music.
 
 
 ## practice 4:
-add an extra salary to the class Teacher and calculate the total salary for all the teachers.
+add an extra attribute called salary to the class Teacher and calculate the total salary for all the teachers.
 
 
 

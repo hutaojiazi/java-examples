@@ -8,6 +8,7 @@ public class Teacher
 	private int grade;
 	private String className;
 	private int ratings;
+	private int salary;
 
 	public Teacher()
 	{
@@ -15,7 +16,7 @@ public class Teacher
 	}
 
 	public Teacher(String firstNameParam, String lastNameParam, String genderParam, int gradeParam, String classNameParam,
-			int ratingsParam)
+			int ratingsParam, int salary)
 	{
 		this.firstName = firstNameParam;
 		this.lastName = lastNameParam;
@@ -23,6 +24,7 @@ public class Teacher
 		this.grade = gradeParam;
 		this.className = classNameParam;
 		this.ratings = ratingsParam;
+		this.salary = salary;
 	}
 
 	public String getFirstName()
@@ -83,6 +85,16 @@ public class Teacher
 	public void setRatings(final int ratings)
 	{
 		this.ratings = ratings;
+	}
+
+	public int getSalary()
+	{
+		return salary;
+	}
+
+	public void setSalary(final int salary)
+	{
+		this.salary = salary;
 	}
 
 	@Override
