@@ -103,4 +103,23 @@ public class Teacher
 		return "first name: " + this.firstName + ", last name: " + this.lastName + ", gender: " + gender + ", grade: " + grade
 				+ ", class: " + className + ", rating: " + ratings;
 	}
+
+	public String toCsvRow()
+	{
+		StringBuilder sb = new StringBuilder();
+		return sb.append(this.firstName)
+				.append(",")
+				.append(this.lastName)
+				.append(",")
+				.append(this.gender)
+				.append(",")
+				.append(this.className)
+				.append(",")
+				.append(this.getGrade())
+				.append(",")
+				.append(this.ratings)
+				.append(",")
+				.append(this.salary)
+				.toString();
+	}
 }

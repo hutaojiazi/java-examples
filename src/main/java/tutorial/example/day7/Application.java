@@ -1,5 +1,7 @@
 package tutorial.example.day7;
 
+import java.time.DayOfWeek;
+
 public class Application {
 
     public static void main(String[] args)
@@ -36,5 +38,7 @@ public class Application {
         byte1.moveForward();
         byte1.moveForward();
         byte1.collectGem();
+
+
     }
 }
