@@ -1,0 +1,50 @@
+Web Page: html, css, javascript(typescript)......
+
+
+Application: Java / python etc......
+
+
+Database:  Oracle, PostgeSQL, Casssandra etc.....
+
+
+
+currency:
+{
+    "code":"USD",
+    "name":"US Dollar",
+    "symbol":"$"
+}
+
+{
+    "isOpen": true,
+    "isClosed": false
+}
+
+ORDER
+{
+    "items": [
+        {
+            "name": "book",
+            "quantity": 2
+        },
+        {
+            "name": "t-shirt",
+            "quantity": 20
+        }
+    ]
+}
+
+{
+    "currencies": [
+        {
+            "code":"USD",
+            "name":"US Dollar",
+            "symbol":"$"
+        },
+        {
+            "code":"CAD",
+            "name":"Canadian Dollar",
+            "symbol":"$"
+        }
+    ]
+}

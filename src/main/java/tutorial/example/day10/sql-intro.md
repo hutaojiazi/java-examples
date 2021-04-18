@@ -1,15 +1,18 @@
+SQL Query
+
 create table books
 (
 id varchar(255),
 name varchar(255),
+author varchar(255),
 publisher varchar(255),
 category varchar(255),
 price numeric(16, 6)
 );
 
 insert into books (id, name, publisher, category, price) values
-('book003', 'Best tutorial for SQL', 'Tianli Public company', 'Science Fiction', 3.99),
-('book004', 'Java for beginners', 'Tianli Public company', 'Science Fiction', 4.99);
+('book003', 'Best tutorial for SQL', 'Happy365 Inc', 'Science Fiction', 3.99),
+('book004', 'Java for beginners', 'Happy365 Inc', 'Science Fiction', 4.99);
 
 select * from books ; -- * all the columns of the table
 select id, name from books ;
