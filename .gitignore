@@ -1,5 +1,7 @@
 env/
 out/
+build/
 .DS_Store
 .git
 .idea
+.gradle/
