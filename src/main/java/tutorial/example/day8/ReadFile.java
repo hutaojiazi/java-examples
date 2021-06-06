@@ -1,13 +1,11 @@
 package tutorial.example.day8;
 
-import tutorial.example.day5.Teacher;
+import tutorial.example.Teacher;
 
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.List;
-import java.util.UUID;
 import java.util.stream.Stream;
 
 public class ReadFile

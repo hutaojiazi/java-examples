@@ -1,4 +1,4 @@
-package tutorial.example.day5;
+package tutorial.example;
 
 public class Teacher
 {
