@@ -30,11 +30,11 @@ public class TeacherExample
 //
 //		System.out.println(teacher1.toString());
 
-		Teacher teacher1 = new Teacher("Peter", "White", "Male", 5, "English", 8, 30000);
-		Teacher teacher2 = new Teacher("Sophie", "Black", "Female", 3, "French", 10, 50000);
-		Teacher teacher3 = new Teacher("Bob", "Green", "Male", 1, "Science", 5, 80000);
-		Teacher teacher4 = new Teacher("Emma", "Legrand", "Female", 6, "Music", 7, 45000);
-		Teacher teacher5 = new Teacher("Linda", "Lepetit", "Female", 2, "Art", 9, 61000);
+		Teacher teacher1 = new Teacher(1, "Peter", "White", "Male", 5, "English", 8, 30000);
+		Teacher teacher2 = new Teacher(2, "Sophie", "Black", "Female", 3, "French", 10, 50000);
+		Teacher teacher3 = new Teacher(3, "Bob", "Green", "Male", 1, "Science", 5, 80000);
+		Teacher teacher4 = new Teacher(4, "Emma", "Legrand", "Female", 6, "Music", 7, 45000);
+		Teacher teacher5 = new Teacher(5, "Linda", "Lepetit", "Female", 2, "Art", 9, 61000);
 
 		List<Teacher> teachers = new ArrayList<>();
 		teachers.add(teacher1);

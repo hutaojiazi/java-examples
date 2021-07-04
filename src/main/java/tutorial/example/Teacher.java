@@ -2,6 +2,7 @@ package tutorial.example;
 
 public class Teacher
 {
+	private int id;
 	private String firstName;
 	private String lastName;
 	private String gender;
@@ -15,9 +16,10 @@ public class Teacher
 		// do nothing
 	}
 
-	public Teacher(String firstNameParam, String lastNameParam, String genderParam, int gradeParam, String classNameParam,
+	public Teacher(int id, String firstNameParam, String lastNameParam, String genderParam, int gradeParam, String classNameParam,
 			int ratingsParam, int salary)
 	{
+		this.id = id;
 		this.firstName = firstNameParam;
 		this.lastName = lastNameParam;
 		this.gender = genderParam;
@@ -25,6 +27,16 @@ public class Teacher
 		this.className = classNameParam;
 		this.ratings = ratingsParam;
 		this.salary = salary;
+	}
+
+	public int getId()
+	{
+		return id;
+	}
+
+	public void setId(final int id)
+	{
+		this.id = id;
 	}
 
 	public String getFirstName()
