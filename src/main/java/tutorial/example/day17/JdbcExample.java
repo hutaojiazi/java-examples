@@ -10,6 +10,9 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Performs multiple operations (create table, insert, update, delete and select) in the database.
+ */
 public class JdbcExample
 {
 	private final String url = "jdbc:postgresql://localhost:5432/postgres";

@@ -14,6 +14,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Stream;
 
+/**
+ * Read the data from csv file and convert to list of teachers then save these data in postgresql database.
+ */
 public class DBDataLoader
 {
 	public static void main(String[] args) throws IOException

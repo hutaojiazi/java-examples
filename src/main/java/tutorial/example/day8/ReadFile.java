@@ -113,7 +113,7 @@ public class ReadFile
 					.append(t.getRatings())
 					.append(",")
 					.append(t.getSalary())
-					.append("\n");
+					.append("\n"); // line break
 		});
 
 		Files.write(path, sb.toString().getBytes(StandardCharsets.UTF_8));
